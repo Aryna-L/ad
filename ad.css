@@ -7,7 +7,6 @@ html, body{
   overflow: hidden;
   
 }
-
 body{
   display: flex;
   flex-direction: row;
@@ -25,6 +24,11 @@ body{
   border: 3px solid #17544d;
   position: relative;
   box-shadow: 10px 10px 42px 0 rgba(0,0,0,0.75);
+}
+.cta {
+  text-decoration-line: underline;
+  text-decoration-color: #d91858;
+  text-decoration-style: wavy;
 }
 button {
   background: #79d4c3;
@@ -107,4 +111,5 @@ h3 {
 .box:hover:before, .box:hover:after {
 
           animation-duration: 0.3s;
+
 }
